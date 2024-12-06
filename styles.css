@@ -1,0 +1,74 @@
+marquee{ font-size:30px;
+color:red;
+padding:20px;
+font-family: 'Times New Roman', Times, serif;}
+
+h1{
+    font-size: 100px;
+    color:blue;
+    margin-bottom: 5px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+img{
+    width: 10%;
+    padding: 20px;
+}
+
+ul{
+list-style: None;
+padding: 20px;
+display: flex;
+}
+
+li{
+    margin-right: 2%;
+    font-size: 20px;
+    color:red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: pink;
+    border-radius: 30px;
+    font-family: fantasy;
+}
+
+.middle-content{
+    display: flex;
+    padding: 20px;
+}
+
+.column{
+    margin-right: 3%;
+    color:green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#red-text{
+    color:red;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 400px;
+}
+
+.top-content{
+    padding: 20px;
+}
+
+.tab[aria-selected='true'] {
+    background-color: var(--active-tab-bg-color);
+    color: var(--active-tab-text-color);
+    font-weight: bold;
+  }
+  
+  canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
